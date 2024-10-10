@@ -52,8 +52,6 @@ public class MainAnimali {
 			animale.dormi();
 			animale.mangia();
 			animale.verso();
-			animale.nuota();
-			animale.vola();
 		}
 		
 		
