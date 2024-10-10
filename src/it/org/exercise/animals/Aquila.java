@@ -1,6 +1,7 @@
 package it.org.exercise.animals;
 
-public class Aquila extends Animale{
+public class Aquila extends Animale implements AnimaleVolante
+{
 
 	
 	@Override
@@ -16,13 +17,8 @@ public class Aquila extends Animale{
 	}
 
 	@Override
-	public void nuota() {
-		
-	}
-
-	@Override
 	public void vola() {
-		System.out.println("Sto Volando");
+		System.out.println("Sto Volando!!!");
 		
 	}
 

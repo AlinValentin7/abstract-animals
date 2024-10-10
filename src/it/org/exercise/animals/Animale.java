@@ -1,6 +1,6 @@
 package it.org.exercise.animals;
 
-public abstract  class  Animale implements AnimaleAquatico, AnimaleVolante {
+public abstract  class  Animale {
 
 	public  void dormi () {
 		System.out.println("ZZZ");

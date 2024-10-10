@@ -1,6 +1,6 @@
 package it.org.exercise.animals;
 
-public class Delfino extends Animale {
+public class Delfino extends Animale implements AnimaleAquatico {
 
 	
 	@Override
@@ -21,11 +21,6 @@ public class Delfino extends Animale {
 		
 	}
 
-	@Override
-	public void vola() {
-		
-		
-	}
-
+	
 }
 

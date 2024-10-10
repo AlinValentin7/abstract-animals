@@ -1,6 +1,6 @@
 package it.org.exercise.animals;
 
-public class Passerotto extends Animale{
+public class Passerotto extends Animale implements AnimaleVolante{
 
 	
 	@Override
@@ -15,15 +15,11 @@ public class Passerotto extends Animale{
 		
 	}
 
-	@Override
-	public void nuota() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	@Override
 	public void vola() {
-		System.out.println("Sto volando");
+		System.out.println("Sto volando!!!");
 		
 	}
 

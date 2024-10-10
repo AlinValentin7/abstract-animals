@@ -14,16 +14,5 @@ public class Cane extends Animale{
 		
 	}
 
-	@Override
-	public void nuota() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void vola() {
-		// TODO Auto-generated method stub
-		
-	}
-
+	
 }
